@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand, Helvetica, sans-serif;
+}
+
+.main-container {
+  background-image: linear-gradient(
+      to top,
+      rgba(71, 46, 104, 0.9),
+      rgba(71, 46, 104, 0.9)
+    ),
+    url("assets/banner.jpeg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  li {
+    list-style-type: none;
+  }
+}
+.nav-components {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.nav-components a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.banner{
+    text-align: center;
+    padding: 50px;
+}
+.banner h1{
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.banner p{
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.get-started{
+text-decoration: none;
+color: inherit;
+width: 100%;
+text-transform: uppercase;
+display: inline-block;
+padding: 18px 100px;
+background-color: #00a6d9;
+font-size: 12px;
+font-weight: 700;
+border-radius: 4px;
+}
+
+.card-container{
+    background-color:  #f5f8fa;
+    min-width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.card {
+    padding: 35px;
+    background-color: #fff;
+    margin: 30px;
+  }
+  
+  .card-header p {
+    color: #00a6d9;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .card-header h2 {
+    font-weight: 100;
+  }
+  
+  .card-content,
+  .card-header h2 {
+    color: #637485;
+  }
+  .card-content p {
+    padding: 40px 0;
+     line-height: 1.5;
+  }
+  
+  .btn-more {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 22px;
+    border: 1px solid #dde1e3;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .post-container{
+    background-color: #00a6d9;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 15px;
+  }
+  .post{
+    margin-bottom: 20px;
+  }
