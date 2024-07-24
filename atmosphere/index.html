@@ -32,6 +32,7 @@
         <header class="card-header">
           <p>MAGNA</p>
           <h2>Dolor sit amet vivamus</h2>
+          <hr>
         </header>
         <div class="card-content">
           <p>
@@ -45,8 +46,9 @@
 
       <div class="card">
         <header class="card-header">
-          <p>Lorem</p>
+          <p>LOREM</p>
           <h2>Dolor sit amet vivamus</h2>
+          <hr>
         </header>
         <div class="card-content">
           <p>
@@ -61,99 +63,112 @@
     <hr />
     <article class="post-container">
       <section class="post">
-        <i class="fa-solid fa-chart-column"></i>
+        <i class="fa-solid fa-chart-column post-icons"></i>
         <h3>PLACERAT</h3>
         <p>Lorem ipsum dolor sit amet nullam et consequat.</p>
       </section>
       <section class="post">
-        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-telegram post-icons"></i>
         <h3>LIBERO</h3>
         <p>Lorem ipsum dolor sit amet nullam et consequat.</p>
       </section>
       <section class="post">
-        <i class="fa-solid fa-chart-area"></i>
+        <i class="fa-solid fa-chart-area post-icons"></i>
         <h3>SOLICITU</h3>
         <p>Lorem ipsum dolor sit amet nullam et consequat.</p>
       </section>
       <section class="post">
-        <i class="fa-solid fa-image"></i>
+        <i class="fa-solid fa-image post-icons"></i>
         <h3>TEMPOR</h3>
         <p>Lorem ipsum dolor sit amet nullam et consequat.</p>
       </section>
     </article>
     <section class="poster-container">
-      <div class="poster">
-        <header class="poster-header">
+      <div class="card">
+        <header class="card-header">
           <p>CONSEQUAT</p>
           <h2>Fusce lobortis lorem semper sagittis</h2>
+          <hr class="horizontal">
         </header>
-        <div class="poster-content">
+        <img src="assets/atmosphere0.jpeg" alt="image" class="atmosphere-img">
+        <div class="card-content">
           <p>
             Phasellus in ante vitae nibh porttitor tempus vitae ante. Lorem
             blandit dolor elementum dolor. Sed quat diam, aliquet tempus felis.
             Phasellus et magna vitae sed porttitor tempus vitae ut ante lorem
             blandit.
           </p>
-          <a href="#">More</a>
+          <a href="#" class="btn-more">More</a>
         </div>
       </div>
     </section>
     <hr />
-    <article class="template-container">
-      <header>
+    <article class="card-container bottom">
+      <header class="card-header">
         <p>malesuada</p>
         <h2>Aliquam tincidunt mauris eu risus</h2>
       </header>
-      <section class="template">
-        <p>09.04.16</p>
-        <h3>MAGNA ETIAM SED LOREM IPSUM DOLOR AMET</h3>
-        <img src="assets/atmosphere01.jpeg" alt="image" /> <br />
+      <section class="card-content">
+        <p class="para">09.04.16</p>
+        <h3 class="card-head">MAGNA ETIAM SED LOREM IPSUM DOLOR AMET</h3>
+        <img src="assets/atmosphere01.jpeg" alt="image"  class="atmosphere-img"/> <br />
         <p>
           Phasellus in ante vitae nibh porttitor tempus vitae ut ante.
           Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet
           tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.
         </p>
-        <a href="#">More</a>
+        <a href="#" class="btn-more">More</a>
       </section>
-      <section class="template">
-        <p>08.28.16</p>
-        <h3>SED FEUGIAT ET MAURIS ADIPISCING DOLOR</h3>
+      <section class="card-content">
+        <p class="para">08.28.16</p>
+        <h3 class="card-head">SED FEUGIAT ET MAURIS ADIPISCING DOLOR</h3>
+        <img src="assets/atmosphere02.jpeg" alt="image"  class="atmosphere-img"/> 
         <p>
           Phasellus in ante vitae nibh porttitor tempus vitae ut ante.
           Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet
           tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.
         </p>
-        <img src="assets/atmosphere02.jpeg" alt="image" /> <br />
-        <a href="#">More</a>
+        
+        <a href="#" class="btn-more">More</a>
       </section>
-      <section class="template">
-        <p>08.22.16</p>
-        <h3>TELLUS MAGNA DOLORE SED ELEMENTUM</h3>
+      <section class="card-content">
+        <p class="para">08.22.16</p>
+        <h3 class="card-head">TELLUS MAGNA DOLORE SED ELEMENTUM</h3>
+        <img src="assets/atmosphere03.jpeg" alt="image"  class="atmosphere-img"/> 
         <p>
           Phasellus in ante vitae nibh porttitor tempus vitae ut ante.
           Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet
           tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.
         </p>
-        <img src="assets/atmosphere03.jpeg" alt="image" /> <br />
-        <a href="#">More</a>
+        
+        <a href="#" class="btn-more">More</a>
       </section>
     </article>
     <hr />
     <article class="contact-section">
       <section class="Address">
-        <ul>
+        <ul class="address-content">
           <li>
             <i class="fa-solid fa-house"></i>
+            </li>
+            <li>
             <h4>Address</h4>
-            <p>1234 Fictional Avenue Nashville, TN 00000</p>
+            <p>1234 Fictional Avenue  <p>Nashville, TN 00000 </p></p>
           </li>
+          <ul class="address-content">
           <li>
             <i class="fa-solid fa-phone"></i>
+            </li>
+            <li>
             <h4>PHONE</h4>
             <p>(000) 000-0000</p>
           </li>
+        </ul>
+        <ul class="address-content">
           <li>
             <i class="fa-solid fa-envelope"></i>
+          </li>
+          <li>
             <h4>EMAIL</h4>
             <p>information@untitled.tld</p>
           </li>
@@ -169,14 +184,15 @@
           <textarea
             name="message"
             id="message"
-            placeholder="Message"
-          ></textarea>
-          <a href="#">Send Message</a>
+            placeholder="Message" rows="7"
+          ></textarea> <br>
+          <a href="#" class="btn-send">Send Message</a>
         </form>
       </section>
+      <footer class="foot-container">
+        <p>© Untitled. All rights reserved.</p>
+      </footer>
     </article>
-    <footer>
-      <p>© Untitled. All rights reserved.</p>
-    </footer>
+    
   </body>
 </html>
