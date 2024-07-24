@@ -203,6 +203,21 @@ border-radius: 4px;
   }
   .address-content{
     display: flex;
-    flex-direction: row;
-    gap: 15px;
+   gap: 20px;
+   line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .address-content h4{
+    color: #00a6d9;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .contact-section hr{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    color: #bbbbbb;
+  }
+  .contact-section i{
+    color: #637485;
   }
