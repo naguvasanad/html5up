@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: Raleway,Helvetica, sans-serif;
+}
+nav{
+   position: sticky;
+    display: block;
+    float: right;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+
+}
+
+.reflex-img{
+    
+    border-radius: 50%;
+    width: 100%;
+    padding: 10px 60px;
+      }
+  .container{
+       text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+    
+}
+  .container  h1{
+    font-weight: normal;
+    color: #565656;
+    font-size: 40px;
+    margin: 20px 0;
+  }
+  .container  p{
+    margin-bottom: 10px;
+}
+
+  .btn{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 11px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+  }
+
+  @media screen and (max-width: 850px)and (min-width: 470px){
+    .container{
+        display: flex;
+        gap: 20px;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .container>p{
+        font-size: 20px;
+    }
+    .reflex-img{
+        width: 100%;
+        padding: 10px 20px;
+        
+    }
+    .reflex-content{
+        width: 100%;
+    }
+    .btn{
+        width: auto;
+    }
+    .reflex-content{
+            text-align: start;
+    }
+    
+  }
