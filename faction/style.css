@@ -1,0 +1,145 @@
+*{
+    font-family: "Sourec Sans Pro",Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 2;
+}
+
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: #2ebfac;
+            padding: 6px;
+        position: fixed;
+       
+}
+.nav-components{
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    background-image: url("https://fastly.picsum.photos/id/879/536/354.jpg?hmac=DHlAvQ-DPSPs6YaodJBSc3a9sVFzvTqygKTW1cTbFFY");
+        background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding:  65px 35px;
+    text-align: center;
+    
+}
+.banner h2{
+ font-size: 32px;
+ margin-bottom: 10px;
+ font-weight: 100;
+ letter-spacing: 2px;
+ color: #fff;
+}
+.banner p{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.btn{
+    color: #fff;
+    border: 1px solid;
+    padding: 6px 20px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.poster-container{
+    padding: 30px 25px;
+
+}
+.poster-container h1{
+    font-size: 32px;
+    color: #3ed8c4;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+ p{
+    color: #888888;
+}
+.post-container{
+    padding: 30px;
+}
+.post-container hr{
+    margin-bottom: 20px;
+}
+h2,h3{
+color: #3ed8c4;
+}
+.card h3{
+    line-height: 1.5;
+    margin: 10px 0 20px;
+}
+.post i{
+    font-size: 20px;
+}
+.post{
+    margin-bottom: 20px;
+}
+.post-elements{
+    display: flex;
+    gap: 30px;
+}
+.card-container{
+    padding: 30px;
+}
+.faction-img{
+    width: 100%;
+}
+span{
+    color: #aaaaaa;
+}
+.card a,.poster-container a,.arcu-container a ,.about-content a{
+    color: #888888;
+    text-align: center;
+    margin-top: 20px;
+}
+.arcu-container{
+    padding:  20px;
+}
+.arcu-head{
+    padding: 20px 0;
+}
+.arcu-head h2,.about-content h3,.contact h3{
+    margin-bottom: 15px;
+}
+.arcu-content{
+    padding: 20px 0;
+}
+.about-container,.contact{
+    padding: 30px;
+}
+.about-content p{
+margin-bottom: 30px;
+}
+.about-items{
+    margin-top: 30px;
+}
+.items,.contact-items{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.items li p{
+    font-size: 14px;
+}
+.contact-img{
+    border-radius: 50%;
+    max-width: 70px;
+    max-height: 70px;
+    
+}
+.footer{
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    color: #aaaaaa;
+}
