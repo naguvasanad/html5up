@@ -12,54 +12,65 @@
   </head>
   <body>
     <article class="main-content">
-      <navbar class="menu">
-        <ul>
-          <li><a href="#" class="logo">Forty</a></li>
-          <li>
-            <a href="#">
-              <a href="#"><i class="fa-solid fa-bars"></i></a
-            ></a>
-          </li>
-        </ul>
-      </navbar>
+      
       <header class="banner">
+        <navbar class="menu">
+          <ul class="menu-items">
+            <li><a href="#" class="logo"><strong>Forty</strong></a></li>
+            <li>
+              <a href="#">
+                <a href="#"><i class="fa-solid fa-bars hamburger"></i></a
+              ></a>
+            </li>
+          </ul>
+        </navbar>
+        <div class="header-content">
         <h1>Hi, my name is Forty</h1>
         <p>
           A ALIQUET DIAM ALIQUAM INTEGER AT CUBILIA SED ALIQUAM LOREM DIS
           EGESTAS COMMODO.
         </p>
-        <a href="#"
-          >Get started<i class="fa-sharp fa-solid fa-right-long"></i
+        <a href="#" class="btn btn-started"
+          >Get started<i class="fa-sharp fa-solid fa-right-long arrow"></i
         ></a>
+      </div>
       </header>
       <section class="post-container">
-        <article class="post">
+        <article class="post post01">
           <h2>Aliquam</h2>
+          <div class="horizontal"></div>
           <p>ipsum dolor sit amet.</p>
         </article>
-        <article class="post">
+        <article class="post post02">
           <h2>Tempus</h2>
+          <div class="horizontal"></div>
           <p>feugat amet tempus.</p>
         </article>
-        <article class="post">
+        <article class="post post03">
           <h2>Magna</h2>
+          <div class="horizontal"></div>
           <p>nisil sed aliquam</p>
         </article>
-        <article class="post">
-          <h2>Aliquam</h2>
+        <article class="post post04">
+          <h2>Ipsum</h2>
+          <div class="horizontal"></div>
+          <p>nisil sed aliquam.</p>
+        </article>
+        <article class="post post05">
+          <h2>consequat</h2>
+          <div class="horizontal"></div>
           <p>ipsum dolor sit amet.</p>
         </article>
-        <article class="post">
-          <h2>Aliquam</h2>
-          <p>ipsum dolor sit amet.</p>
-        </article>
-        <article class="post">
-          <h2>Aliquam</h2>
-          <p>ipsum dolor sit amet.</p>
+        <article class="post post06">
+          <h2>Etiam</h2>
+          <div class="horizontal"></div>
+          <p>feugat amet tempus.</p>
         </article>
       </section>
+      <article class="container2">
       <section class="card">
         <h2>Massa libero</h2>
+        <div class="horizontal"></div>
         <p>
           Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
           libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
@@ -68,39 +79,48 @@
           orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris
           aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
         </p>
-        <a href="#"
-          >Get started<i class="fa-sharp fa-solid fa-right-long"></i
+        <a href="#" class="btn-started"
+          >Get started<i class="fa-sharp fa-solid fa-right-long arrow"></i
         ></a>
       </section>
       <section class="form-container">
         <form action="#">
           <label for="name">Name</label> <br />
-          <input type="text" name="name" /> <br />
+          <input type="text" name="name"  class="input-fields"/> <br />
           <label for="name">Email</label> <br />
-          <input type="Email" name="email" /> <br />
+          <input type="Email" name="email"  class="input-fields"/> <br />
           <label for="message">Message</label> <br />
-          <textarea name="message" id="message"></textarea> <br>
-          <a href="#" class="btn btn-sendmsg">Send Message</a> <br>
-          <a href="#" class="btn btn-clear">Clear</a>
+          <textarea name="message" id="message" class="input-fields" rows="8"></textarea> <br>
+          <div class="buttons">
+          <a href="#" class="btn btn-sendmsg">Send Message</a> 
+          <a href="#" class="btn btn-started clear">Clear</a>
+        </div>
         </form>
       </section>
+      <hr class="line">
       <section class="contact">
         <ul class="contact-items">
-          <li><i class="fa-sharp fa-solid fa-envelope"></i></li>
+          <li><i class="fa-sharp fa-solid fa-envelope icon"></i></li>
           <li>
             <strong>Email</strong>
             <p>information@untitled.tld</p>
           </li>
         </ul>
+      </section>
+        <hr class="line">
+        <section class="contact">
         <ul class="contact-items">
-          <li><i class="fa-sharp fa-solid fa-phone"></i></li>
+          <li><i class="fa-sharp fa-solid fa-phone icon"></i></li>
           <li>
             <strong>Phone</strong>
             <p>(000) 000-0000 x12387</p>
           </li>
         </ul>
+      </section>
+        <hr class="line">
+        <section class="contact">
         <ul class="contact-items">
-          <li><i class="fa-sharp fa-solid fa-house"></i></li>
+          <li><i class="fa-sharp fa-solid fa-house icon"></i></li>
           <li>
             <strong>Address</strong>
             <p>1234 Somewhere Road #5432</p>
@@ -109,16 +129,18 @@
           </li>
         </ul>
       </section>
+      <hr class="line">
       <footer class="footer-content">
         <ul class="footer-icons">
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-github"></i></li>
-            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-twitter icon"></i></li>
+            <li><i class="fa-brands fa-facebook icon"></i></li>
+            <li><i class="fa-brands fa-instagram icon"></i></li>
+            <li><i class="fa-brands fa-github icon"></i></li>
+            <li><i class="fa-brands fa-linkedin icon"></i></li>
         </ul>
-        <p>© Untitled</p>
+        <p class="footer-para">© Untitled</p>
       </footer>
+    </article>
     </article>
   </body>
 </html>
