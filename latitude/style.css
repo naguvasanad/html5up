@@ -96,8 +96,10 @@
     color: #575d60;
     font-weight: 700;
     display: inline-block;
-    border: 2px solid #e8eaeb;;
-    width: 100%;
+    border: 2px solid #858a8c;
+    /* width: 100%; */
+    height: 3rem;
+    line-height: 1;
     text-align: center;
     padding: 10px;
     font-size: 18px;
@@ -223,10 +225,9 @@ margin-bottom: 18px;
         font-weight: 100;
     }
     .btn{
-        width: auto;
-        
-        font-size: 16px;
-        display: inline;
+        padding: 10px;
+         font-size: 16px;
+        display: inline-block;
     }
     .poster-content{
         display: flex;
