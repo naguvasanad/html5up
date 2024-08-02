@@ -253,5 +253,8 @@ margin-top: 6px;
     .two{
         display: none;
     }
+    .three{
+        gap: 50px;
+    }
     
 }
